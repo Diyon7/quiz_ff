@@ -1,0 +1,157 @@
+/* soal */
+.kotak {
+    padding-top: 0px;
+}
+
+.kotak_kiri {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.kotak_soal {
+    margin: 40px;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 20px;
+}
+
+.kotak_soal img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.soal {
+    padding: 20px;
+}
+
+.soal li {
+    list-style-type: none;
+}
+
+.kotak_jawaban {
+    padding-top: 10px;
+    background-color: rgba(128, 0, 128, 0.5);
+    color: white;
+}
+
+.page_soal {
+    height: 200px;
+    border: 0.5px solid;
+}
+
+.done {
+    background-color: rgb(0, 255, 0);
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nodone {
+    background-color: rgba(255, 255, 255);
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.done:hover,
+.nodone:hover {
+    background-color: rgba(204, 0, 204, 0.5);
+    color: white;
+}
+
+.pilihan {
+    display: block;
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pilihan li {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.pilihan label,
+.pilihan input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.pilihan input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+}
+
+.pilihan input[type="radio"]:checked+label,
+.Checked+label {
+    background: white;
+    color: black;
+}
+
+.pilihan label {
+    padding: 5px;
+    padding-top: 12.5px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    z-index: 90;
+    border-radius: 100%;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+.pilihan label:hover {
+    background: white;
+    color: black;
+}
+
+.navi {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.navi a {
+    color: white;
+}
+
+.navi a:hover {
+    color: white;
+}
+
+/* end soal */
+
+/* result */
+
+.num_soal {
+    min-height: 200px;
+    border: 0.5px solid;
+    padding: 20px;
+}
+
+.num_soal a {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.num_soal a:hover {
+    background-color: rgba(204, 0, 204, 0.5);
+    color: white;
+}
+
+/* end result */
